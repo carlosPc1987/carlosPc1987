@@ -1,6 +1,5 @@
 
-
-##  Carlos — Backend Developer & Explorador de IA
+##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
  
    ## Hi there 👋
  
@@ -22,12 +21,20 @@ Soy desarrollador backend especializado en **Java** y **Spring Boot**, con exper
 
 ### -  Backend & APIs REST
 ![Java](https://img.shields.io/badge/-Java-007396?logo=java&logoColor=white&style=flat)
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+![PyCharm](https://img.shields.io/badge/-PyCharm-000000?logo=jetbrains&logoColor=white&style=flat)
 ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?logo=springboot&logoColor=white&style=flat)
 ![Postman](https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white&style=flat)
 ![Swagger](https://img.shields.io/badge/-Swagger-85EA2D?logo=swagger&logoColor=black&style=flat)
 ![Maven](https://img.shields.io/badge/-Maven-C71A36?logo=apachemaven&logoColor=white&style=flat)
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?logo=nextdotjs&logoColor=white&style=flat)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=flat)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?logo=angular&logoColor=white&style=flat)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwindcss&logoColor=white&style=flat)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white&style=flat)
 
 ### - IA alternativa y herramientas curiosas
 ![Runway ML](https://img.shields.io/badge/-Runway%20ML-000000?logo=runway&logoColor=white&style=flat)
@@ -46,6 +53,10 @@ Soy desarrollador backend especializado en **Java** y **Spring Boot**, con exper
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
 ![Notion](https://img.shields.io/badge/-Notion-000000?logo=notion&logoColor=white&style=flat)
 ![Studio 3T](https://img.shields.io/badge/-Studio%203T-00C389?logo=mongodb&logoColor=white&style=flat)
+![Kafka](https://img.shields.io/badge/-Kafka-231F20?logo=apachekafka&logoColor=white&style=flat)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=mongodb&logoColor=white&style=flat)
+![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white&style=flat)
+![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white&style=flat)
 
 ---
 
