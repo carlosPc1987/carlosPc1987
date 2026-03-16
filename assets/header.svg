@@ -1,84 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
-  <defs>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#22d3ee"/>
-      <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="1" stop-color="#22c55e"/>
-    </linearGradient>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200">
+  <title>Header para GitHub - Grabar como GIF</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #0f172a;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .header-wrap {
+      width: 1200px;
+      height: 320px;
+      border-radius: 26px;
+      overflow: hidden;
+      box-shadow: 0 0 60px rgba(167, 139, 250, 0.15);
+    }
+    /* Animación línea: recorre el trazo */
+    @keyframes line-flow {
+      from { stroke-dashoffset: 0; }
+      to { stroke-dashoffset: -780; }
+    }
+    /* Animación borde: pulso suave */
+    @keyframes border-pulse {
+      0%, 100% { opacity: 0.25; }
+      50% { opacity: 0.45; }
+    }
+    .line-animated {
+      animation: line-flow 2.8s linear infinite;
+    }
+    .frame-glow {
+      animation: border-pulse 2.5s ease-in-out infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+      <defs>
+        <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#22d3ee"/>
+          <stop offset="0.5" stop-color="#a78bfa"/>
+          <stop offset="1" stop-color="#22c55e"/>
+        </linearGradient>
+        <linearGradient id="text-lilac" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#f5f3ff"/>
+          <stop offset="0.5" stop-color="#ede9fe"/>
+          <stop offset="1" stop-color="#e8e0f5"/>
+        </linearGradient>
+        <radialGradient id="spot" cx="35%" cy="45%" r="70%">
+          <stop offset="0" stop-color="#60a5fa" stop-opacity="0.18"/>
+          <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.10"/>
+          <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="glow">
+          <feGaussianBlur stdDeviation="8" result="b"/>
+          <feMerge>
+            <feMergeNode in="b"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <filter id="text-glow">
+          <feGaussianBlur stdDeviation="2" result="tb"/>
+          <feMerge>
+            <feMergeNode in="tb"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+        <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+          <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-opacity="0.09" stroke-width="1"/>
+        </pattern>
+      </defs>
 
-    <!-- Blanco alilado para el texto -->
-    <linearGradient id="text-lilac" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#f5f3ff"/>
-      <stop offset="0.5" stop-color="#ede9fe"/>
-      <stop offset="1" stop-color="#e8e0f5"/>
-    </linearGradient>
+      <rect width="1200" height="320" fill="#070b14"/>
+      <rect width="1200" height="320" fill="url(#grid)"/>
+      <rect width="1200" height="320" fill="url(#spot)"/>
 
-    <radialGradient id="spot" cx="35%" cy="45%" r="70%">
-      <stop offset="0" stop-color="#60a5fa" stop-opacity="0.18"/>
-      <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#0b1220" stop-opacity="0"/>
-    </radialGradient>
+      <rect x="28" y="28" width="1144" height="264" rx="26" fill="#0b1220" stroke="url(#neon)" stroke-width="2"/>
+      <rect class="frame-glow" x="28" y="28" width="1144" height="264" rx="26" fill="none" stroke="url(#neon)" stroke-width="8" opacity="0.35" filter="url(#glow)"/>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+      <path class="line-animated"
+            d="M80 220 C 260 120, 520 280, 740 160 S 1040 120, 1120 190"
+            fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.9"
+            filter="url(#glow)" stroke-linecap="round"
+            stroke-dasharray="260 520" stroke-dashoffset="0"/>
 
-    <filter id="text-glow">
-      <feGaussianBlur stdDeviation="2" result="tb"/>
-      <feMerge>
-        <feMergeNode in="tb"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
+      <text x="80" y="150" fill="url(#text-lilac)" filter="url(#text-glow)"
+            font-family="Segoe UI, Inter, system-ui" font-size="56" font-weight="800" letter-spacing="2">DEVELOPER</text>
+      <text x="80" y="210" fill="url(#text-lilac)" filter="url(#text-glow)"
+            font-family="Segoe UI, Inter, system-ui" font-size="48" font-weight="800" letter-spacing="2">JAVA BACKEND</text>
 
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-opacity="0.09" stroke-width="1"/>
-    </pattern>
-  </defs>
-
-  <!-- Background -->
-  <rect width="1200" height="320" fill="#070b14"/>
-  <rect width="1200" height="320" fill="url(#grid)"/>
-  <rect width="1200" height="320" fill="url(#spot)"/>
-
-  <!-- Neon frame (borde con pulso suave) -->
-  <rect x="28" y="28" width="1144" height="264" rx="26" fill="#0b1220" stroke="url(#neon)" stroke-width="2"/>
-  <rect id="frame-glow" x="28" y="28" width="1144" height="264" rx="26" fill="none" stroke="url(#neon)" stroke-width="8" opacity="0.35" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="2.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <!-- Línea ondulada con movimiento -->
-  <path id="accent-line"
-        d="M80 220 C 260 120, 520 280, 740 160 S 1040 120, 1120 190"
-        fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.9"
-        filter="url(#glow)" stroke-linecap="round"
-        stroke-dasharray="260 520" stroke-dashoffset="0">
-    <animate attributeName="stroke-dashoffset" from="0" to="-780" dur="2.8s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- Título DEVELOPER - blanco alilado -->
-  <text x="80" y="150" fill="url(#text-lilac)" filter="url(#text-glow)"
-        font-family="Segoe UI, Inter, system-ui" font-size="56" font-weight="800"
-        letter-spacing="2">
-    DEVELOPER
-  </text>
-
-  <!-- JAVA BACKEND - blanco alilado -->
-  <text x="80" y="210" fill="url(#text-lilac)" filter="url(#text-glow)"
-        font-family="Segoe UI, Inter, system-ui" font-size="48" font-weight="800"
-        letter-spacing="2">
-    JAVA BACKEND
-  </text>
-
-  <!-- Tag Secure · Scalable · APIs -->
-  <g transform="translate(845 78)">
-    <rect x="0" y="0" width="290" height="44" rx="14" fill="url(#neon)" opacity="0.14" stroke="url(#neon)"/>
-    <text x="18" y="30" fill="#f5f3ff" font-family="Segoe UI, Inter, system-ui" font-size="18" font-weight="700">
-      Secure · Scalable · APIs
-    </text>
-  </g>
-</svg>
+      <g transform="translate(845 78)">
+        <rect x="0" y="0" width="290" height="44" rx="14" fill="url(#neon)" opacity="0.14" stroke="url(#neon)"/>
+        <text x="18" y="30" fill="#f5f3ff" font-family="Segoe UI, Inter, system-ui" font-size="18" font-weight="700">Secure · Scalable · APIs</text>
+      </g>
+    </svg>
+  </div>
+</body>
+</html>
