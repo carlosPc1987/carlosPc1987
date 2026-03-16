@@ -94,3 +94,5 @@ Esto significa que puedes compartir, copiar y adaptar el contenido, siempre que:
 3. Indiques si realizas cambios.
 
 Para más información, visita: https://creativecommons.org/licenses/by-nc/4.0/
+
+<img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/space-duck.svg" width="36" height="36" alt="patito espacial" />
