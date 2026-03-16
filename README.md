@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="header.svg" alt="DEVELOPER JAVA BACKEND" width="100%" />
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/header.svg" alt="DEVELOPER JAVA BACKEND" width="100%" />
 </p>
-
 
 ##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
  
