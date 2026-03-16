@@ -61,7 +61,27 @@
 ---<p align="center">
   <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
 </p>
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+</p>
 
+## GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=carlosPc1987&show_icons=true&icon_color=a78bfa&title_color=22d3ee&text_color=e2e8f0&bg_color=0b1220&border_color=334155&hide_border=true" alt="GitHub Stats" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.vercel.app/?user=carlosPc1987&theme=radical&background=0B1220&border=334155" alt="GitHub Streak" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosPc1987&layout=compact&title_color=22d3ee&text_color=e2e8f0&bg_color=0b1220&border_color=334155&hide_border=true" alt="Most Used Languages" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+</p>
 ## 🌐 Portafolio
 
 https://github.com/carlosPc1987
