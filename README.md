@@ -7,9 +7,6 @@
  
 ---
 
-<p align="center">
-  <img src="assets/ducks.gif" alt="Patos Fibonacci" width="700" />
-</p>
 
 ---
 Soy desarrollador backend especializado en **Java** y **Spring Boot**, con experiencia en la creación de **APIs RESTful** robustas y escalables. Me apasiona la inteligencia artificial, especialmente las herramientas emergentes que desafían lo convencional.
