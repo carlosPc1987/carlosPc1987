@@ -58,7 +58,9 @@
 ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white&style=flat)
 ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white&style=flat)
 
----
+---<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+</p>
 
 ## 🌐 Portafolio
 
