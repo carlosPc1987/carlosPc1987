@@ -15,10 +15,6 @@
 
 ---
 ---
-<img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/space-duck.svg" width="36" height="36" alt="patito espacial" /><p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
-</p>
-
 ---
 
 ##  Tecnologías que uso y exploro
