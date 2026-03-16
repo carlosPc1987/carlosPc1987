@@ -58,8 +58,7 @@
 ![Axios](https://img.shields.io/badge/-Axios-5A29E4?logo=axios&logoColor=white&style=flat)
 ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white&style=flat)
 
----<p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+
 </p>
 
 <p align="center">
@@ -73,7 +72,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=carlosPc1987&theme=react&background=0b1220&border=334155&stroke=22d3ee&ring=a78bfa&fire=a78bfa&currStreakLabel=22d3ee&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=22d3ee&dates=e2e8f0" alt="GitHub Streak" width="480" />
+  <img src="https://streak-stats.demolab.com/?user=carlosPc1987&theme=react&background=0b1220&border=334155&stroke=22d3ee&ring=a78bfa&fire=a78bfa&currStreakLabel=22d3ee&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=22d3ee&dates=e2e8f0" alt="GitHub Streak" width="480" />
 </p>
 
 <p align="center">
@@ -84,9 +83,6 @@
   <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
-</p>
 ## 🌐 Portafolio
 
 https://github.com/carlosPc1987
