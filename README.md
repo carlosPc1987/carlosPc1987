@@ -3,13 +3,9 @@
 </p>
 
 ##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
-<p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/stars.svg" alt="" width="100%" />
-</p>
+
    ## Hi there 👋
-<p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/stars.svg" alt="" width="100%" />
-</p>
+
 ---
 ---
 Soy desarrollador backend especializado en **Java** y **Spring Boot**, con experiencia en la creación de **APIs RESTful** robustas y escalables. Me apasiona la inteligencia artificial, especialmente las herramientas emergentes que desafían lo convencional.
@@ -80,7 +76,9 @@ https://github.com/carlosPc1987
 
 > _“La tecnología no solo resuelve problemas, también abre puertas a nuevas preguntas.”_  
 > — Carlos 
-
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/stars.svg" alt="" width="100%" />
+</p>
 ## License
 Creative Commons Attribution-NonCommercial 4.0 International
 
