@@ -13,8 +13,7 @@
 
 ---
 ---
-📍 Castelldefels ( Barcelona 08860, España , Vehículo propio. 
---------------> En constante evolución, combinando precisión técnica con curiosidad creativa.<img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/space-duck.svg" width="36" height="36" alt="patito espacial" />
+<img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/space-duck.svg" width="36" height="36" alt="patito espacial" />
 
 ---
 
