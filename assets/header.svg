@@ -6,6 +6,13 @@
       <stop offset="1" stop-color="#22c55e"/>
     </linearGradient>
 
+    <!-- Blanco alilado para el texto -->
+    <linearGradient id="text-lilac" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ff"/>
+      <stop offset="0.5" stop-color="#ede9fe"/>
+      <stop offset="1" stop-color="#e8e0f5"/>
+    </linearGradient>
+
     <radialGradient id="spot" cx="35%" cy="45%" r="70%">
       <stop offset="0" stop-color="#60a5fa" stop-opacity="0.18"/>
       <stop offset="0.55" stop-color="#a78bfa" stop-opacity="0.10"/>
@@ -20,6 +27,14 @@
       </feMerge>
     </filter>
 
+    <filter id="text-glow">
+      <feGaussianBlur stdDeviation="2" result="tb"/>
+      <feMerge>
+        <feMergeNode in="tb"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
       <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94a3b8" stroke-opacity="0.09" stroke-width="1"/>
     </pattern>
@@ -30,31 +45,39 @@
   <rect width="1200" height="320" fill="url(#grid)"/>
   <rect width="1200" height="320" fill="url(#spot)"/>
 
-  <!-- Neon frame -->
+  <!-- Neon frame (borde con pulso suave) -->
   <rect x="28" y="28" width="1144" height="264" rx="26" fill="#0b1220" stroke="url(#neon)" stroke-width="2"/>
-  <rect x="28" y="28" width="1144" height="264" rx="26" fill="none" stroke="url(#neon)" stroke-width="8" opacity="0.30" filter="url(#glow)"/>
+  <rect id="frame-glow" x="28" y="28" width="1144" height="264" rx="26" fill="none" stroke="url(#neon)" stroke-width="8" opacity="0.35" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
 
-  <!-- Accent line -->
-  <path d="M80 220 C 260 120, 520 280, 740 160 S 1040 120, 1120 190"
-        fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.65" filter="url(#glow)"/>
+  <!-- Línea ondulada con movimiento -->
+  <path id="accent-line"
+        d="M80 220 C 260 120, 520 280, 740 160 S 1040 120, 1120 190"
+        fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.9"
+        filter="url(#glow)" stroke-linecap="round"
+        stroke-dasharray="260 520" stroke-dashoffset="0">
+    <animate attributeName="stroke-dashoffset" from="0" to="-780" dur="2.8s" repeatCount="indefinite"/>
+  </path>
 
-  <!-- Title -->
-  <text x="80" y="150" fill="#e5e7eb"
+  <!-- Título DEVELOPER - blanco alilado -->
+  <text x="80" y="150" fill="url(#text-lilac)" filter="url(#text-glow)"
         font-family="Segoe UI, Inter, system-ui" font-size="56" font-weight="800"
         letter-spacing="2">
     DEVELOPER
   </text>
 
-  <text x="80" y="210" fill="#cbd5e1"
+  <!-- JAVA BACKEND - blanco alilado -->
+  <text x="80" y="210" fill="url(#text-lilac)" filter="url(#text-glow)"
         font-family="Segoe UI, Inter, system-ui" font-size="48" font-weight="800"
         letter-spacing="2">
     JAVA BACKEND
   </text>
 
-  <!-- Small neon tag -->
+  <!-- Tag Secure · Scalable · APIs -->
   <g transform="translate(845 78)">
     <rect x="0" y="0" width="290" height="44" rx="14" fill="url(#neon)" opacity="0.14" stroke="url(#neon)"/>
-    <text x="18" y="30" fill="#e5e7eb" font-family="Segoe UI, Inter, system-ui" font-size="18" font-weight="700">
+    <text x="18" y="30" fill="#f5f3ff" font-family="Segoe UI, Inter, system-ui" font-size="18" font-weight="700">
       Secure · Scalable · APIs
     </text>
   </g>
