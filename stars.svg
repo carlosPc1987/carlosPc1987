@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="260" viewBox="0 0 1600 260">
+  <defs>
+    <linearGradient id="star-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#020617"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+
+    <radialGradient id="star-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f9fafb" stop-opacity="1"/>
+      <stop offset="0.5" stop-color="#e5e7eb" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1600" height="260" fill="url(#star-sky)"/>
+
+  <!-- Neblina suave -->
+  <ellipse cx="800" cy="140" rx="520" ry="120" fill="#0f172a" opacity="0.7"/>
+  <ellipse cx="800" cy="140" rx="420" ry="95" fill="#020617" opacity="0.85"/>
+
+  <!-- Estrellas pequeñas (dispersas) -->
+  <g fill="#e5e7eb" opacity="0.9">
+    <!-- fila superior -->
+    <circle cx="140" cy="40" r="1.2"/>
+    <circle cx="260" cy="32" r="0.9"/>
+    <circle cx="390" cy="50" r="1.1"/>
+    <circle cx="520" cy="28" r="1.0"/>
+    <circle cx="640" cy="44" r="0.9"/>
+    <circle cx="780" cy="30" r="1.1"/>
+    <circle cx="920" cy="38" r="1.0"/>
+    <circle cx="1060" cy="26" r="1.1"/>
+    <circle cx="1200" cy="42" r="0.9"/>
+    <circle cx="1350" cy="34" r="1.1"/>
+
+    <!-- fila media -->
+    <circle cx="90" cy="120" r="1.1"/>
+    <circle cx="210" cy="102" r="1.0"/>
+    <circle cx="340" cy="132" r="1.0"/>
+    <circle cx="470" cy="118" r="1.2"/>
+    <circle cx="600" cy="104" r="0.9"/>
+    <circle cx="730" cy="128" r="1.0"/>
+    <circle cx="860" cy="110" r="1.1"/>
+    <circle cx="990" cy="132" r="0.9"/>
+    <circle cx="1120" cy="108" r="1.0"/>
+    <circle cx="1260" cy="124" r="1.1"/>
+    <circle cx="1390" cy="112" r="0.9"/>
+
+    <!-- fila inferior -->
+    <circle cx="150" cy="190" r="1.0"/>
+    <circle cx="280" cy="178" r="1.1"/>
+    <circle cx="420" cy="196" r="0.9"/>
+    <circle cx="550" cy="184" r="1.0"/>
+    <circle cx="690" cy="200" r="1.1"/>
+    <circle cx="820" cy="188" r="1.0"/>
+    <circle cx="950" cy="204" r="0.9"/>
+    <circle cx="1080" cy="190" r="1.1"/>
+    <circle cx="1220" cy="202" r="1.0"/>
+    <circle cx="1360" cy="186" r="0.9"/>
+  </g>
+
+  <!-- Estrellas grandes con halo -->
+  <g>
+    <g transform="translate(260 90)">
+      <circle cx="0" cy="0" r="14" fill="url(#star-glow)" opacity="0.85"/>
+      <circle cx="0" cy="0" r="2.4" fill="#f9fafb"/>
+    </g>
+    <g transform="translate(640 70)">
+      <circle cx="0" cy="0" r="16" fill="url(#star-glow)" opacity="0.9"/>
+      <circle cx="0" cy="0" r="2.6" fill="#f9fafb"/>
+    </g>
+    <g transform="translate(1020 96)">
+      <circle cx="0" cy="0" r="15" fill="url(#star-glow)" opacity="0.88"/>
+      <circle cx="0" cy="0" r="2.5" fill="#f9fafb"/>
+    </g>
+    <g transform="translate(1340 76)">
+      <circle cx="0" cy="0" r="13" fill="url(#star-glow)" opacity="0.8"/>
+      <circle cx="0" cy="0" r="2.3" fill="#f9fafb"/>
+    </g>
+  </g>
+
+  <!-- Sutile línea de horizonte -->
+  <rect y="220" width="1600" height="2" fill="#1e293b" opacity="0.9"/>
+  <rect y="222" width="1600" height="38" fill="#020617" opacity="0.95"/>
+</svg>
