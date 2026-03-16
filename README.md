@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/profile-banner.gif" alt="DEVELOPER JAVA BACKEND" width="100%" />
-</p>
+
 ##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
  
    ## Hi there 👋
