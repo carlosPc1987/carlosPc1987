@@ -1,6 +1,5 @@
-```md
 <p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/blob/main/assets/profile-banner.gif?raw=true" alt="DEVELOPER JAVA BACKEND" width="100%" />
+  <img src="assets/profile-banner.gif" alt="DEVELOPER JAVA BACKEND" width="100%" />
 </p>
 ##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
  
