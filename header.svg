@@ -44,27 +44,26 @@
   <rect width="1200" height="320" fill="url(#spot)"/>
 
   <rect x="28" y="28" width="1144" height="264" rx="26" fill="#0b1220" stroke="url(#neon)" stroke-width="2"/>
-  <rect x="28" y="28" width="1144" height="264" rx="26" fill="none" stroke="url(#neon)" stroke-width="8" opacity="0.35" filter="url(#glow)"/>
+  <rect x="28" y="28" width="1144" height="264" rx="26" fill="none" stroke="url(#neon)" stroke-width="8" opacity="0.35" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
 
   <path d="M80 220 C 260 120, 520 280, 740 160 S 1040 120, 1120 190"
-        fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.85" filter="url(#glow)" stroke-linecap="round"/>
+        fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.9"
+        filter="url(#glow)" stroke-linecap="round"
+        stroke-dasharray="260 520" stroke-dashoffset="0">
+    <animate attributeName="stroke-dashoffset" from="0" to="-780" dur="2.8s" repeatCount="indefinite"/>
+  </path>
 
   <text x="80" y="150" fill="url(#text-lilac)" filter="url(#text-glow)"
         font-family="Segoe UI, Inter, system-ui" font-size="56" font-weight="800"
-        letter-spacing="2">
-    DEVELOPER
-  </text>
-
+        letter-spacing="2">DEVELOPER</text>
   <text x="80" y="210" fill="url(#text-lilac)" filter="url(#text-glow)"
         font-family="Segoe UI, Inter, system-ui" font-size="48" font-weight="800"
-        letter-spacing="2">
-    JAVA BACKEND
-  </text>
+        letter-spacing="2">JAVA BACKEND</text>
 
   <g transform="translate(845 78)">
     <rect x="0" y="0" width="290" height="44" rx="14" fill="url(#neon)" opacity="0.14" stroke="url(#neon)"/>
-    <text x="18" y="30" fill="#f5f3ff" font-family="Segoe UI, Inter, system-ui" font-size="18" font-weight="700">
-      Secure · Scalable · APIs
-    </text>
+    <text x="18" y="30" fill="#f5f3ff" font-family="Segoe UI, Inter, system-ui" font-size="18" font-weight="700">Secure · Scalable · APIs</text>
   </g>
 </svg>
