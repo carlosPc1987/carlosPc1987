@@ -8,10 +8,8 @@
 
 ---
 <p align="center">
-  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/stars.svg" alt="" width="100%" />
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/bio-stars.svg" alt="Bio Carlos Backend" width="100%" />
 </p>
----
-Soy desarrollador backend especializado en **Java** y **Spring Boot**, con experiencia en la creación de **APIs RESTful** robustas y escalables. Me apasiona la inteligencia artificial, especialmente las herramientas emergentes que desafían lo convencional.
 
 ---
 ---
