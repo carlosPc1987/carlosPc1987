@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="star-g" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f9fafb" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#e5e7eb" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="planet-a" cx="30%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="0.5" stop-color="#d97706"/>
+      <stop offset="1" stop-color="#92400e"/>
+    </radialGradient>
+    <radialGradient id="planet-b" cx="35%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="0.5" stop-color="#0ea5e9"/>
+      <stop offset="1" stop-color="#0369a1"/>
+    </radialGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#020617" stop-opacity="0.75"/>
+      <stop offset="0.35" stop-color="#020617" stop-opacity="0.5"/>
+      <stop offset="0.65" stop-color="#020617" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.85"/>
+    </linearGradient>
+    <filter id="text-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#000" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="1" flood-color="#0ea5e9" flood-opacity="0.15"/>
+    </filter>
+    <filter id="text-glow">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#f8fafc" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg-sky)"/>
+  <g fill="#e5e7eb" opacity="0.85">
+    <circle cx="100" cy="40" r="1"/><circle cx="280" cy="28" r="0.9"/><circle cx="450" cy="48" r="1"/>
+    <circle cx="620" cy="32" r="1.1"/><circle cx="800" cy="44" r="0.9"/><circle cx="960" cy="26" r="1"/>
+    <circle cx="1120" cy="38" r="1"/><circle cx="120" cy="100" r="0.9"/><circle cx="340" cy="88" r="1"/>
+    <circle cx="520" cy="108" r="1"/><circle cx="720" cy="92" r="0.9"/><circle cx="900" cy="78" r="1.1"/>
+    <circle cx="1080" cy="98" r="1"/><circle cx="180" cy="160" r="1"/><circle cx="400" cy="148" r="0.9"/>
+    <circle cx="600" cy="172" r="1"/><circle cx="820" cy="156" r="1.1"/><circle cx="1000" cy="142" r="0.9"/>
+    <circle cx="200" cy="220" r="1"/><circle cx="480" cy="208" r="0.9"/><circle cx="760" cy="232" r="1"/>
+    <circle cx="940" cy="198" r="1.1"/><circle cx="1100" cy="218" r="0.9"/>
+  </g>
+  <g transform="translate(320 100)">
+    <circle cx="0" cy="0" r="12" fill="url(#star-g)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="2" fill="#f9fafb"/>
+  </g>
+  <g transform="translate(880 70)">
+    <circle cx="0" cy="0" r="14" fill="url(#star-g)" opacity="0.88"/>
+    <circle cx="0" cy="0" r="2.2" fill="#f9fafb"/>
+  </g>
+  <circle cx="200" cy="220" r="32" fill="url(#planet-a)" opacity="0.85"/>
+  <circle cx="1000" cy="90" r="24" fill="url(#planet-b)" opacity="0.82"/>
+
+  <rect width="1200" height="320" fill="url(#overlay)"/>
+
+  <text x="600" y="118" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, 'Helvetica Neue', system-ui, sans-serif" font-size="26" font-weight="600" letter-spacing="0.5" filter="url(#text-shadow)">
+    Soy desarrollador backend en Java y Spring Boot, con experiencia en APIs RESTful
+  </text>
+  <text x="600" y="152" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, 'Helvetica Neue', system-ui, sans-serif" font-size="26" font-weight="600" letter-spacing="0.5" filter="url(#text-shadow)">
+    robustas y escalables. Me apasiona la IA y las herramientas que desafían lo convencional.
+  </text>
+  <text x="600" y="198" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, 'Helvetica Neue', system-ui, sans-serif" font-size="18" font-weight="500" letter-spacing="1" filter="url(#text-shadow)">
+    Castelldefels (Barcelona 08860, España) · Vehículo propio
+  </text>
+  <text x="600" y="232" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, 'Helvetica Neue', system-ui, sans-serif" font-size="16" font-weight="500" letter-spacing="2" font-style="italic" filter="url(#text-glow)">
+    En constante evolución: precisión técnica y curiosidad creativa
+  </text>
+</svg>
