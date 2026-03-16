@@ -8,7 +8,7 @@
 ---
 
 <p align="center">
-  <b>Crafted with "LOVE" by Carlos and approved by 🦆</b>
+  <img src="assets/ducks.gif" alt="Patos Fibonacci" width="700" />
 </p>
 
 ---
