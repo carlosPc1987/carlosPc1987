@@ -4,7 +4,7 @@
 
 ##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
 
-   ## Hi there 👋
+   ## Hi there 👋🦆
 
 ---
 <p align="center">
