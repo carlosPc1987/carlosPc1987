@@ -1,9 +1,13 @@
 <p align="center">
   <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/header.svg" alt="DEVELOPER JAVA BACKEND" width="100%" />
 </p>
-
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+</p>
 ##  Carlos — Backend Developer & Explorador de IA Full-Stack Developer.
-
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+</p>
    ## Hi there 👋🦆
 
 ---
@@ -95,3 +99,6 @@ Esto significa que puedes compartir, copiar y adaptar el contenido, siempre que:
 Para más información, visita: https://creativecommons.org/licenses/by-nc/4.0/
 
 <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/space-duck.svg" width="36" height="36" alt="patito espacial" />
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
+</p>
