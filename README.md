@@ -7,14 +7,17 @@
    ## Hi there 👋
 
 ---
----
-Soy desarrollador backend especializado en **Java** y **Spring Boot**, con experiencia en la creación de **APIs RESTful** robustas y escalables. Me apasiona la inteligencia artificial, especialmente las herramientas emergentes que desafían lo convencional.
-
-📍 Castelldefels ( Barcelona 08860, España , Vehículo propio. 
---------------> En constante evolución, combinando precisión técnica con curiosidad creativa.
 <p align="center">
   <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/stars.svg" alt="" width="100%" />
 </p>
+---
+Soy desarrollador backend especializado en **Java** y **Spring Boot**, con experiencia en la creación de **APIs RESTful** robustas y escalables. Me apasiona la inteligencia artificial, especialmente las herramientas emergentes que desafían lo convencional.
+
+---
+---
+📍 Castelldefels ( Barcelona 08860, España , Vehículo propio. 
+--------------> En constante evolución, combinando precisión técnica con curiosidad creativa.
+
 ---
 
 ##  Tecnologías que uso y exploro
