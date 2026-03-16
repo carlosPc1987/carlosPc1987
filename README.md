@@ -61,6 +61,7 @@
 ---<p align="center">
   <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
 </p>
+
 <p align="center">
   <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
 </p>
@@ -72,11 +73,15 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.vercel.app/?user=carlosPc1987&theme=radical&background=0B1220&border=334155" alt="GitHub Streak" width="100%" />
+  <img src="https://github-readme-streak-stats.vercel.app/?user=carlosPc1987&theme=react&background=0b1220&border=334155&stroke=22d3ee&ring=a78bfa&fire=a78bfa&currStreakLabel=22d3ee&currStreakNum=e2e8f0&sideNums=e2e8f0&sideLabels=22d3ee&dates=e2e8f0" alt="GitHub Streak" width="480" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosPc1987&layout=compact&title_color=22d3ee&text_color=e2e8f0&bg_color=0b1220&border_color=334155&hide_border=true" alt="Most Used Languages" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/carlosPc1987/carlosPc1987/raw/main/divider-neon.svg" alt="" width="100%" />
 </p>
 
 <p align="center">
